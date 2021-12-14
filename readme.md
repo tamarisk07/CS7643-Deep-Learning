@@ -1,3 +1,5 @@
+# CS7643: Deep Learning
+
 HW1: Implementation of softmax regression and two layer neural network 
 
 HW2: Implementation of CNN from scratch, using Pytorch and focal loss 
