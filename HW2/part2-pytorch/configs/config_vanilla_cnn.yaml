@@ -1,0 +1,20 @@
+Train:
+  batch_size: 128
+  learning_rate: 0.0001
+  reg: 0.0005
+  epochs: 10
+  steps: [6, 8]
+  warmup: 0
+  momentum: 0.9
+
+network:
+  model: VanillaCNN # TwoLayerNet or VanillaCNN or MyModel or ResNet-32
+  save_best: True
+
+data:
+  imbalance: regular # regular or imbalance
+  reweight: True
+  beta: 0.9999
+
+loss:
+  loss_type: CE # CE or Focal
