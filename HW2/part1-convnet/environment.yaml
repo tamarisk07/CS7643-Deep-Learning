@@ -1,0 +1,8 @@
+name: cs7643-a2
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - matplotlib
+  - pyyaml
+
